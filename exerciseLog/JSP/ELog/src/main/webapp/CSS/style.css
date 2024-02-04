@@ -1,0 +1,328 @@
+@charset "UTF-8";
+* {
+	margin : 0;
+	padding : 0;
+	font : normal 12px '고딕';
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #F0EBCE;
+}
+input, textarea {
+    outline: none;
+}
+
+/*공통*/
+#wrap {
+	width: 100%;
+	height: auto;
+	background-color: #395144;
+}
+.head {
+	width: 1050px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+}
+.main {
+	width: 1050px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer {
+	width: 1050px;
+	height: 250px;
+	margin: 0 auto;
+	text-align: center;
+	color: #F0EBCE;
+	font-size: 16px;
+	padding-top: 50px;
+}
+h3 {
+	font-size: 30px;
+	color: #F0EBCE;
+
+}
+h4 {
+	font-size: 20px;
+	color: #F0EBCE;
+
+}
+
+
+
+
+/*main*/
+
+.intro {
+	width: 100%;
+	height: 250px;
+	margin: 20px;
+}
+.btn_login {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.btn_login > a {
+	display: inline-block;
+	width: 250px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.btn_login > a:hover {
+	background-color: #749F82;
+}
+
+/*login*/
+.loginpage {
+	width: 600px;
+	height: 550px;
+	margin: 0 auto;
+}
+.loginpage form {
+	padding: 50px 10px;	
+}
+.loginpage table {
+	height: auto;
+	margin: 0 auto;
+}
+.loginpage table tr {
+	height: 80px;
+}
+.loginpage table tr > td {
+	width: 300px;
+	height: 60px;
+	font-size:30px;
+	color: #F0EBCE;
+	text-align: center;
+}
+.loginpage table tr > td:nth-child(1) {
+	width: 150px;
+}
+.loginpage table tr:nth-child(3) {
+	width: 100%;
+	height: 100px;
+}
+.loginpage table tr > td > input {
+	width: 250px;
+	height: 45px;
+	font-size: 24px;
+	border: none;
+	border-radius: 30px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.loginpage table tr > td > input::placeholder {
+	font-size: 18px;
+	padding-left: 10px;
+}
+.loginpage table tr:nth-child(3) > td > input {
+	width: 250px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+}
+.loginpage table tr:nth-child(3) > td > input:hover {
+	background-color: #749F82;
+}
+.loginpage table tr:nth-child(4) > td > a {
+	display: inline-block;
+	width: 250px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.loginpage table tr:nth-child(4) > td > a:hover {
+	background-color: #749F82;
+}
+
+/*register*/
+.registerpage {
+	width: 600px;
+	height: 580px;
+	margin: 0 auto;
+}
+
+.registerpage form {
+	padding: 50px 10px;	
+}
+.registerpage table {
+	height: auto;
+	margin: 0 auto;
+}
+.registerpagee table tr {
+	height: 80px;
+}
+.registerpage table tr > td {
+	width: 300px;
+	height: 60px;
+	font-size:30px;
+	color: #F0EBCE;
+	text-align: center;
+}
+.registerpage table tr > td > input {
+	width: 300px;
+	height: 45px;
+	font-size: 20px;
+	border: none;
+	border-radius: 30px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.registerpage table tr:nth-child(7) {
+	height: 100px;
+}
+.registerpage table tr:nth-child(7) > td > input {
+	width: 250px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+}
+.registerpage table tr > td > a {
+	display: inline-block;
+	width: 250px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.registerpage table tr > td > a:hover {
+	background-color: #749F82;
+}
+
+/*logmainPage*/
+.logmain_logbtn {
+	width: 100%;
+	height: 100px;
+}
+.logmain_logbtn > a {
+	display: inline-block;
+	width: 250px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.logmain_log {
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+}
+.logmain_log > table {
+	margin: 10px 90px;
+	box-sizing: border-box;
+	border: 2px solid #111;
+	border-collapse: collapse;
+	color: #F0EBCE;
+}
+.logmain_log > table tr {
+	border: 1px solid #111;
+}
+.logmain_log > table tr > td {
+	width: 50px;
+	height: 26px;
+	border-bottom: 1px solid #111;
+    border-left: 1px solid #111;
+    font-size: 14px;
+}
+.logmain_log > table tr:nth-child(1) > td:nth-child(1) {
+	width: 130px;
+}
+.logmain_log > table tr:nth-child(1) > td:nth-child(2) {
+	width: 170px;
+}
+
+/*exLogPage*/
+.exLogPage {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+.exLogPage > from {
+	width: 100%;
+	height: 100%;
+}
+.exLogPage table {
+	margin: 10px 80px;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	color: #F0EBCE;
+}
+.exLogPage table tr:nth-child(1) > td {
+	font-size: 30px;
+}
+
+.exLogPage table tr > td {
+	width: 80px;
+	height: 50px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.exLogPage table tr > td > input {
+	width: 66px;
+	height: 30px;
+}
+.exLogPage table tr:nth-child(1) {
+	height: 150px;
+}
+.exLogPage table tr > td:nth-child(1) {
+	width: 150px;
+}
+.exLogPage table tr > td:nth-child(1) > input {
+	width: 146px;
+}
+.exLogPage table tr:nth-last-child(1) > td {
+	height: 200px;
+}
+.exLogPage table tr:nth-last-child(1) > td > input {
+	width: 200px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+	box-sizing: border-box;
+	border: none;
+}
+.exLogPage table tr:nth-last-child(1) > td > input:hover {
+	background-color: #749F82;
+}
+.exLogPage table tr:nth-last-child(1) > td > a {
+	display: inline-block;
+	width: 200px;
+	height: 70px;
+	background-color: #4E6C50;
+	border-radius: 50px;
+	font-size:32px;
+	color: #F0EBCE;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.exLogPage table tr:nth-last-child(1) > td > a:hover {
+	background-color: #749F82;
+}
